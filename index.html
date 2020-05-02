@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>🔥 Doom Fire Effect - RGB</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <center>
+      <h1>Doom Fire Effect</h1>
+      <h2><span class="r">R</span><span class="g">G</span><span class="b">B</span></h2>
+      
+      <canvas id="fireCanvas"></canvas>
+
+      <div class="select">
+        <label>Select Color: </label><input type="range" class="range" name="cores" min="0" max="8" value="1" onchange="changeColor(this.value)">
+      </div>
+
+      <div class="margin">
+        <button onclick="decreaseFireSource()" class="btn">-</button>
+        <button onclick="destroyFireSource()" class="btn_max_min">MIN FIRE</button>
+        <button onclick="createFireSource()" class="btn_max_min">MAX FIRE</button>
+        <button onclick="increaseFireSource()" class="btn">+</button>
+      </div>
+
+      <div class="about">
+        <p>
+          <a href="https://github.com/pedrorivald/fire-rgb-canvas">Modified</a> by 
+          <a href="https://github.com/pedrorivald">Pedro Rivaldo</a>
+        </p>
+
+        <p>
+          <a href="https://github.com/filipedeschamps/doom-fire-algorithm">
+            Original repository</a> by 
+          <a href="https://github.com/filipedeschamps">Filipe Deschamps</a>
+        </p>
+      </div>
+
+    </center>
+
+    <script src="fire.js"></script>
+  </body>
+</html>
