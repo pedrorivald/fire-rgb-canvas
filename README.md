@@ -1,2 +1,2 @@
-# fire-rgb-canvas
+# Doom Fire Effect - RGB
 Doom Fire Effect Edition RGB
