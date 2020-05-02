@@ -8,7 +8,7 @@ This is a RGB Edition of Doom Fire Effect implemented in JavaScript and using ca
   </a>
 </p>
 
-- [Click here for the Demo page](https://filipedeschamps.com.br/doom-fire-algorithm/playground/1st-implementation-with-tables-pinkedition)
+- [Click here for the Demo page](https://pedrorivald.github.io/fire-rgb-canvas/)
 - [Click here for the Original Video Tutorial](https://www.youtube.com/watch?v=HCjDjsHPOco)
 
 ## Author
